@@ -1,0 +1,30 @@
+version: '3.4'
+
+networks:
+  backend:
+services:
+  customerdb:
+    container_name: customer-db
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Password123
+    networks:
+      - backend
+    ports:
+     - 8001:1433 
+  customerapi:
+    container_name: customer-api
+    image: ${DOCKER_REGISTRY-}customerapi
+    build:
+      context: .
+      dockerfile: CustomerApi/Dockerfile
+    networks:
+     - backend
+    ports:
+     - 8002:80  
+    environment:
+     - DB_HOST=customer-db
+     - DB_NAME=customer
+     - DB_SA_PASSWORD=Password123 
+     

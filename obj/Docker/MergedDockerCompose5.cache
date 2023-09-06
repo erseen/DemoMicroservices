@@ -1,0 +1,30 @@
+name: dockercompose17054447977333070723
+services:
+  customerapi:
+    build:
+      context: C:\Users\Ersen\Desktop\DemooMicroservices
+      dockerfile: CustomerApi/Dockerfile
+    container_name: customer-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DB_HOST: customer-db
+      DB_NAME: customer
+      DB_SA_PASSWORD: Password123
+    image: customerapi
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+  customerdb:
+    container_name: customer-db
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Password123
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      backend: null
+networks:
+  backend:
+    name: dockercompose17054447977333070723_backend

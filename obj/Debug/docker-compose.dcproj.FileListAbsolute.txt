@@ -1,0 +1,17 @@
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\CustomerApi.deps.json
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\CustomerApi.runtimeconfig.json
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\appsettings.Development.json
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\appsettings.json
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\CustomerApi.exe
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\CustomerApi.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\CustomerApi.pdb
+C:\Users\Ersen\Desktop\DemooMicroservices\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\Ersen\Desktop\DemooMicroservices\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Ersen\Desktop\DemooMicroservices\obj\Debug\docker-compose.dcproj.CopyComplete

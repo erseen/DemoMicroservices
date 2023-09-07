@@ -25,6 +25,30 @@ services:
      - 8002:80  
     environment:
      - DB_HOST=customer-db
-     - DB_NAME=customer
+     - DB_NAME=dms_customer
      - DB_SA_PASSWORD=Password123 
      
+  productdb:
+    container_name: product-db
+    image: mysql:8.0.29-oracle
+    environment:
+     - MYSQL_ROOT_PASSWORD=Password123
+    ports:
+    - 8003:3306
+    networks:
+      - backend
+  productapi:
+    container_name: product-api
+    image: ${DOCKER_REGISTRY-}productapi
+    build:
+      context: .
+      dockerfile: ProductApi/Dockerfile
+    networks:
+     - backend
+    ports:
+     - 8004:80
+    environment:
+     - DB_HOST=productdb
+     - DB_NAME=dms_product
+     - DB_ROOT_PASSWORD=Password123  
+

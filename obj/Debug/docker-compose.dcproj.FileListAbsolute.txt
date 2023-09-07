@@ -33,3 +33,17 @@ C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\K4os.Hash.xxHash.dll
 C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\System.Windows.Extensions.dll
 C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\ProductApi.pdb
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\OrderApi.deps.json
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\OrderApi.runtimeconfig.json
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\OrderApi.exe
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\OrderApi.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\MongoDB.Bson.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\MongoDB.Driver.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\DnsClient.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\SharpCompress.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\ZstdSharp.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\AWSSDK.Core.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Snappier.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\OrderApi.pdb

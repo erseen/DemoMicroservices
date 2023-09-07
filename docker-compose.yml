@@ -51,4 +51,25 @@ services:
      - DB_HOST=productdb
      - DB_NAME=dms_product
      - DB_ROOT_PASSWORD=Password123  
+  
+  order-db:
+    container_name: order-db
+    image: mongo
+    ports:
+    - 18005:27017
+    networks:
+      - backend
+  orderapi:
+    container_name: order-api
+    image: ${DOCKER_REGISTRY-}orderapi
+    build:
+      context: .
+      dockerfile: OrderApi/Dockerfile
+    ports:
+    - 18006:80
+    networks:
+     - backend
+    environment:
+      - DB_HOST=order-db
+      - DB_NAME=dms_order
 

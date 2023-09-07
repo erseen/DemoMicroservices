@@ -1,0 +1,82 @@
+name: dockercompose17054447977333070723
+services:
+  customerapi:
+    build:
+      context: C:\Users\Ersen\Desktop\DemooMicroservices
+      dockerfile: CustomerApi/Dockerfile
+    container_name: customer-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DB_HOST: customer-db
+      DB_NAME: dms_customer
+      DB_SA_PASSWORD: Password123
+    image: customerapi
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8002"
+      protocol: tcp
+  customerdb:
+    container_name: customer-db
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Password123
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "8001"
+      protocol: tcp
+  order-db:
+    container_name: order-db
+    image: mongo
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 27017
+      published: "18005"
+      protocol: tcp
+  productapi:
+    build:
+      context: C:\Users\Ersen\Desktop\DemooMicroservices
+      dockerfile: ProductApi/Dockerfile
+    container_name: product-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DB_HOST: productdb
+      DB_NAME: dms_product
+      DB_ROOT_PASSWORD: Password123
+    image: productapi
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8004"
+      protocol: tcp
+  productdb:
+    container_name: product-db
+    environment:
+      MYSQL_ROOT_PASSWORD: Password123
+    image: mysql:8.0.29-oracle
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 3306
+      published: "8003"
+      protocol: tcp
+networks:
+  backend:
+    name: dockercompose17054447977333070723_backend

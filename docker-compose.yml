@@ -2,6 +2,8 @@ version: '3.4'
 
 networks:
   backend:
+  frontend:
+
 services:
   customerdb:
     container_name: customer-db
@@ -12,7 +14,7 @@ services:
     networks:
       - backend
     ports:
-     - 8001:1433 
+     - 18001:1433 
   customerapi:
     container_name: customer-api
     image: ${DOCKER_REGISTRY-}customerapi
@@ -21,8 +23,6 @@ services:
       dockerfile: CustomerApi/Dockerfile
     networks:
      - backend
-    ports:
-     - 8002:80  
     environment:
      - DB_HOST=customer-db
      - DB_NAME=dms_customer
@@ -45,8 +45,6 @@ services:
       dockerfile: ProductApi/Dockerfile
     networks:
      - backend
-    ports:
-     - 8004:80
     environment:
      - DB_HOST=productdb
      - DB_NAME=dms_product
@@ -65,11 +63,32 @@ services:
     build:
       context: .
       dockerfile: OrderApi/Dockerfile
-    ports:
-    - 18006:80
     networks:
      - backend
     environment:
       - DB_HOST=order-db
-      - DB_NAME=dms_order
+      - DB_NAME=dms_order   
+
+  apigateway:
+    container_name: api-gateway
+    image: ${DOCKER_REGISTRY-}apigateway
+    build:
+      context: .
+      dockerfile: Api Gateway/Dockerfile
+    ports:
+      - 8001:80 
+    networks:
+     - backend
+     - frontend
+
+  webui:
+    container_name: blazor_web-ui
+    image: ${DOCKER_REGISTRY-}webui
+    build:
+      context: .
+      dockerfile: Ui/WebUi/Dockerfile
+    ports:
+     - 8002:80 
+    networks:
+     - frontend
 

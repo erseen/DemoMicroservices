@@ -1,0 +1,37 @@
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\appsettings.json
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\ocelot.json
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Api Gateway.exe
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Api Gateway.deps.json
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Api Gateway.runtimeconfig.json
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Api Gateway.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Api Gateway.pdb
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Ocelot.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\Api Gateway.csproj.AssemblyReference.cache
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\Api Gateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\Api Gateway.AssemblyInfoInputs.cache
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\Api Gateway.AssemblyInfo.cs
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\Api Gateway.csproj.CoreCompileInputs.cache
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\Api Gateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\Api Gateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\staticwebassets\msbuild.Api Gateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\staticwebassets\msbuild.build.Api Gateway.props
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Api Gateway.props
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Api Gateway.props
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\scopedcss\bundle\Api Gateway.styles.css
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\Api Gateway.csproj.CopyComplete
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\Api Gateway.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\refint\Api Gateway.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\Api Gateway.pdb
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\Api Gateway.genruntimeconfig.cache
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\ref\Api Gateway.dll

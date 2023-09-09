@@ -47,3 +47,23 @@ C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\ZstdSharp.dll
 C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\AWSSDK.Core.dll
 C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Snappier.dll
 C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\OrderApi.pdb
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Api Gateway.deps.json
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Api Gateway.runtimeconfig.json
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\ocelot.json
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Api Gateway.exe
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Api Gateway.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Ocelot.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\FluentValidation.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\Api Gateway.pdb
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\WebUi.deps.json
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\WebUi.runtimeconfig.json
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\WebUi.staticwebassets.runtime.json
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\WebUi.exe
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\WebUi.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\bin\Debug\WebUi.pdb

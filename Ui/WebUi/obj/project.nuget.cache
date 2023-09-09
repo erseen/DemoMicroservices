@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GW2NDS08rNtLIeKhs2PfGLowOBU66pDP9dwZiTjfqwGaUNi1yUtGHCHOmOEkJodVpqKOZIe1wD/cPjoi6l5law==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ersen\\Desktop\\DemooMicroservices\\Ui\\WebUi\\WebUi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ersen\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}

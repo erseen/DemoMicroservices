@@ -35,3 +35,13 @@ C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\refint\Ap
 C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\Api Gateway.pdb
 C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\Api Gateway.genruntimeconfig.cache
 C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\obj\Debug\net6.0\ref\Api Gateway.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\JwtAuthenticationManager.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\Api Gateway\bin\Debug\net6.0\JwtAuthenticationManager.pdb

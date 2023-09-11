@@ -1,4 +1,5 @@
 ﻿using CustomerApi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,6 +16,8 @@ namespace CustomerApi.Controllers
             _customerDbContext = customerDbContext;
         }
         [HttpGet]
+
+        [Authorize]
         public ActionResult<IEnumerable<Customer>> GetCustomers() 
         { 
         return _customerDbContext.Customers;
@@ -27,6 +30,7 @@ namespace CustomerApi.Controllers
             return customer;
         }
         [HttpPost]
+        [Authorize(Roles ="Administrator")]
         public async Task<IActionResult> Create(Customer customer)
         {
             await _customerDbContext.Customers.AddAsync(customer);
@@ -34,6 +38,7 @@ namespace CustomerApi.Controllers
             return Ok();    
         }
         [HttpPut]
+        [Authorize(Roles = "Administrator")]
         public async Task<ActionResult> Update(Customer customer)
         {
             if (customer == null) 

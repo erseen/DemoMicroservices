@@ -7,14 +7,14 @@ services:
     ports:
       - "80"
 
-  productapi:
+  orderapi:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "80"
 
 
-  orderapi:
+  productapi:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
@@ -28,7 +28,7 @@ services:
       - "80"
 
 
-  webui:
+  authenticationapi:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:

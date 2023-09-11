@@ -7,8 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroServices", "MicroServi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerApi", "CustomerApi\CustomerApi.csproj", "{A0E089EF-777C-434D-9A12-0D4D48714E13}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{99F845A6-DBDD-431F-855A-5577D427DCE7}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductApi", "ProductApi\ProductApi.csproj", "{65D0068D-0488-493E-9256-4B4236033093}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderApi", "OrderApi\OrderApi.csproj", "{AE3CACC6-CE70-4219-A694-C55D722BC3AF}"
@@ -17,7 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api Gateway", "Api Gateway"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api Gateway", "Api Gateway\Api Gateway.csproj", "{EA077084-A203-449D-B8A6-6C10A0513405}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUi", "Ui\WebUi\WebUi.csproj", "{0168CB8B-ABA8-4337-B1DC-BD66679E1B2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUi", "Ui\WebUi\WebUi.csproj", "{0168CB8B-ABA8-4337-B1DC-BD66679E1B2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationApi", "AuthenticationApi\AuthenticationApi.csproj", "{E41839C8-83F8-40BC-B612-02A010797AB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtAuthenticationManager", "JwtAuthenticationManager\JwtAuthenticationManager.csproj", "{AD031C79-7065-4503-B8E9-0810B346CEE5}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9CE97F80-9B7A-4B7D-8939-DD167A0C292C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +33,6 @@ Global
 		{A0E089EF-777C-434D-9A12-0D4D48714E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0E089EF-777C-434D-9A12-0D4D48714E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0E089EF-777C-434D-9A12-0D4D48714E13}.Release|Any CPU.Build.0 = Release|Any CPU
-		{99F845A6-DBDD-431F-855A-5577D427DCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{99F845A6-DBDD-431F-855A-5577D427DCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{99F845A6-DBDD-431F-855A-5577D427DCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{99F845A6-DBDD-431F-855A-5577D427DCE7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{65D0068D-0488-493E-9256-4B4236033093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{65D0068D-0488-493E-9256-4B4236033093}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65D0068D-0488-493E-9256-4B4236033093}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -49,6 +49,18 @@ Global
 		{0168CB8B-ABA8-4337-B1DC-BD66679E1B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0168CB8B-ABA8-4337-B1DC-BD66679E1B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0168CB8B-ABA8-4337-B1DC-BD66679E1B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E41839C8-83F8-40BC-B612-02A010797AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41839C8-83F8-40BC-B612-02A010797AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41839C8-83F8-40BC-B612-02A010797AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41839C8-83F8-40BC-B612-02A010797AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD031C79-7065-4503-B8E9-0810B346CEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD031C79-7065-4503-B8E9-0810B346CEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD031C79-7065-4503-B8E9-0810B346CEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD031C79-7065-4503-B8E9-0810B346CEE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE97F80-9B7A-4B7D-8939-DD167A0C292C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE97F80-9B7A-4B7D-8939-DD167A0C292C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE97F80-9B7A-4B7D-8939-DD167A0C292C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE97F80-9B7A-4B7D-8939-DD167A0C292C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

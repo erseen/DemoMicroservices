@@ -1,6 +1,21 @@
 {
   "Routes": [
-              //Customer Web Api
+
+            //Authentication Api
+    {
+      "UpstreamPathTemplate": "/api/Account",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "authenticationapi",
+          "Port": 80
+        }
+
+      ],
+      "DownstreamPathTemplate": "/api/Account"
+    },
+    //Customer Web Api
     {
       "UpstreamPathTemplate": "/api/customer",
       "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
@@ -26,9 +41,9 @@
         }
       ],
       "DownstreamPathTemplate": "/api/Customer/{customerId}"
-    } ,
+    },
 
-               //Product Web Api
+    //Product Web Api
     {
       "UpstreamPathTemplate": "/api/Product",
       "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
@@ -39,7 +54,14 @@
           "Port": 80
         }
       ],
-      "DownstreamPathTemplate": "/api/Product"
+      "DownstreamPathTemplate": "/api/Product",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "Role": "Administrator"
+      }
     },
     {
       "UpstreamPathTemplate": "/api/Product/{productId}",
@@ -53,7 +75,7 @@
       ],
       "DownstreamPathTemplate": "/api/Product/{productId}"
     },
-                    //Order Api
+    //Order Api
     {
       "UpstreamPathTemplate": "/api/order",
       "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
@@ -64,7 +86,14 @@
           "Port": 80
         }
       ],
-      "DownstreamPathTemplate": "/api/order"
+      "DownstreamPathTemplate": "/api/order",
+      "RateLimitOptions": {
+        "ClientWhiteList": [],
+        "EnableRateLimiting": true,
+        "Period": "60s",
+        "PeriodTimespan": 60,
+        "Limit": 1
+      }
 
     },
     {
@@ -78,7 +107,7 @@
         }
       ],
       "DownstreamPathTemplate": "/api/order/{orderId}"
-        
+
     }
   ],
   "GlobalConfiguration": {

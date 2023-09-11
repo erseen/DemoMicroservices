@@ -59,3 +59,7 @@ C:\Users\Ersen\Desktop\DemooMicroservices\CustomerApi\obj\Debug\net6.0\refint\Cu
 C:\Users\Ersen\Desktop\DemooMicroservices\CustomerApi\obj\Debug\net6.0\CustomerApi.pdb
 C:\Users\Ersen\Desktop\DemooMicroservices\CustomerApi\obj\Debug\net6.0\CustomerApi.genruntimeconfig.cache
 C:\Users\Ersen\Desktop\DemooMicroservices\CustomerApi\obj\Debug\net6.0\ref\CustomerApi.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\CustomerApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\CustomerApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\CustomerApi\bin\Debug\net6.0\JwtAuthenticationManager.dll
+C:\Users\Ersen\Desktop\DemooMicroservices\CustomerApi\bin\Debug\net6.0\JwtAuthenticationManager.pdb

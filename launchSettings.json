@@ -8,7 +8,8 @@
         "productapi": "StartDebugging",
         "orderapi": "StartDebugging",
         "apigateway": "StartDebugging",
-        "webui": "StartDebugging"
+        "webui": "StartDebugging",
+        "authenticationapi": "StartDebugging"
       }
     }
   }

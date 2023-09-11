@@ -2,6 +2,7 @@ version: '3.4'
 
 networks:
   backend:
+  frontend:
 
 services:
   customerdb:
@@ -78,3 +79,24 @@ services:
       - 8001:80 
     networks:
      - backend
+     
+
+  authenticationapi:
+    container_name: authentication-api
+    image: ${DOCKER_REGISTRY-}authenticationapi
+    build:
+      context: .
+      dockerfile: AuthenticationApi/Dockerfile
+    networks:
+     - backend
+
+  webui:
+    image: ${DOCKER_REGISTRY-}webui
+    build:
+      context: .
+      dockerfile: Ui/WebUi/Dockerfile
+    ports:
+    - 8002:80
+    networks:
+       - frontend
+
